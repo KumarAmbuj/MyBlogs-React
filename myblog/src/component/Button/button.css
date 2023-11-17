@@ -1,0 +1,15 @@
+.btn{
+    border:none;
+    background-color: rgb(5,3,41);
+    color:rgb(175,171,171);
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    /* margin-right: 40px; */
+    font-size: 14px;
+}
+@media only screen and (max-width: 500px)  {
+    .btn{
+        margin-right: 0px;
+    }
+}

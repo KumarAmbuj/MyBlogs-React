@@ -1,0 +1,26 @@
+.footerNavbar{
+    height:2.7rem;
+    /* outline: 2px solid red; */
+     
+    width:100%;
+    display: none;
+    background-color: rgba(102, 99, 99, 0.5);
+    color: rgb(5,3,41);
+    justify-content: space-around;
+    align-items: center;
+    z-index: 2;
+    
+    position: fixed;
+    bottom: 2px;
+
+}
+.icon{
+    font-size: 30px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 800px)  {
+    .footerNavbar{
+        display: flex;
+       
+    }
+}

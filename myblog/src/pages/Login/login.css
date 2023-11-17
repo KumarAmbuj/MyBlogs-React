@@ -1,0 +1,35 @@
+.signUpForm{
+    width:18rem;
+    /* height:18rem; */
+    /* outline: 1px solid red; */
+    margin:20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 38, 231);
+    border-radius: 10px;
+    box-shadow: 7px 7px 7px rgb(5,3,41);
+    gap:5px;
+    column-gap: 100px;
+    padding-bottom: 4px;
+    
+}
+.heading{
+    margin-top: 0px;
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(5,3,41);
+    
+}
+.heading span{
+    font-size: 23px;
+    font-weight: 600;
+}
+.formData{
+   display: flex;
+   flex-direction: column;
+   gap:10px;
+   align-items: center;
+   margin-top: -7px;
+}

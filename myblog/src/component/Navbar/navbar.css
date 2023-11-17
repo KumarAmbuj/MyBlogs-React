@@ -1,0 +1,132 @@
+.header{
+    display: flex;
+    /* outline: 1px solid red; */
+    height:60px;
+    background-color: rgba(5, 3, 41,0.96);
+    align-items: center;
+}
+.logoName{
+    display: flex;
+
+}
+.logo{
+    height:100%;
+    width:70px;
+    /* outline: 1px solid rgb(3, 5, 102); */
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:80%;
+    height:80%;
+}
+.name{
+    font-size: 30px;
+    color:grey;
+    font-weight: 500;
+    font-family: 'monospace';
+    
+}
+.navItem{
+    display: flex;
+}
+.navItem ul{
+    display: flex;
+    
+
+}
+.navItem li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(175, 171, 171);
+    padding:4px 8px;
+    
+    margin:5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+    
+}
+.navItem li:hover{
+    background-color:rgba(247, 242, 242, 0.4);
+    border-radius: 5px;
+    color: rgb(5,3,41);
+}
+
+.rightNav{
+    display: flex;
+    justify-self: flex-end;
+    margin-left: auto;
+    margin-right: 30px;
+}
+.rightNav ul{
+    display: flex;
+    
+    
+}
+ a{
+    text-decoration: none;
+    color: inherit;
+}
+.rightNav li{
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(175, 171, 171);
+    padding:4px 6px;
+    
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 16px;
+}
+.rightNav li:hover{
+    background-color:rgb(146, 143, 143);
+    border-radius: 5px;
+    color: rgb(5,3,41);
+}
+
+@media only screen and (max-width: 800px)  {
+    .navItem{
+        display: none;
+    }
+    .header{
+        display: flex;
+        /* outline: 1px solid red; */
+        height:40px;
+        background-color: rgb(5, 3, 41);
+        align-items: center;
+    }
+    .logo{
+        height:100%;
+        width:50px;
+        /* outline: 1px solid rgb(3, 5, 102); */
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    .name{
+        font-size: 25px;
+        color:grey;
+        font-weight: 500;
+        
+    }
+    .rightNav li{
+        display: block;
+        text-decoration: none;
+        list-style: none;
+        color: rgb(175, 171, 171);
+        padding:4px 4px;
+        
+        cursor: pointer;
+        font-weight: 500;
+        font-size: 16px;
+    }
+    .rightNav{
+        display: flex;
+        justify-self: flex-end;
+        margin-left: auto;
+        margin-right: 15px;
+    }
+}

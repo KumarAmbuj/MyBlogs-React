@@ -1,0 +1,39 @@
+.searchBar{
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+ 
+.child2{
+    flex:2;
+    display: flex;
+    justify-content: center;
+}
+/* .child3{
+    flex:1;
+} */
+.marginRight{
+    margin-right: 40px;
+}
+
+@media only screen and (max-width: 500px)  {
+    .searchBar{
+        flex-direction: column;
+        gap:5px;
+    }
+    .child1{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        margin-left: 10px;
+    } 
+    .child3{
+        flex:1;
+        display:flex;
+        justify-content: center;
+        
+    } 
+    .marginRight{
+        margin-right: 0;
+    }
+}

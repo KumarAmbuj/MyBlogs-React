@@ -1,0 +1,17 @@
+.input{
+    width: 35%;
+    height: 27px;
+    border-radius: 20px;
+    padding-left: 10px;
+    font-size: 14px;
+    box-shadow: 4px 4px 4px rgb(5,3,41);
+    border: none;
+    outline: none;
+
+}
+
+@media only screen and (max-width: 800px)  {
+    .input{
+        width:60%;
+    }
+}

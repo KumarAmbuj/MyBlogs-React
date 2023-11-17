@@ -1,0 +1,23 @@
+.homePage{
+    width:80%;
+    margin: auto;
+}
+.topBlogs{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap:20px;
+    margin-bottom: 50px;
+    
+}
+.heading{
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(5,3,41);
+}
+@media only screen and (max-width: 800px)  {
+    .homePage{
+        width: 90%;
+    }
+}
